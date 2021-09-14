@@ -1,4 +1,5 @@
 export default {
+  rootUrl: process.env.URL,
   components: true,
   head: {
     titleTemplate: "Nuxt BNB: %s",
