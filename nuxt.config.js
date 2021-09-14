@@ -1,5 +1,4 @@
 export default {
-  rootUrl: process.env.URL,
   components: true,
   head: {
     titleTemplate: "Nuxt BNB: %s",
@@ -48,6 +47,7 @@ export default {
     }
   },
   publicRuntimeConfig: {
+    rootUrl: process.env.URL,
     auth: {
       cookieName: process.env.GOOGLE_AUTH_COOKIE_NAME,
       clientId: process.env.GOOGLE_AUTH_CLIENT_ID,
